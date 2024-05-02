@@ -12,6 +12,7 @@ import { Login } from "./Pages/Login.jsx";
 import { Register } from "./Pages/Register.jsx";
 import { Home } from "./Pages/Home.jsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BlogDetails } from "./Pages/BlogDetails.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/ourtours",
         element: <OurTours></OurTours>,
+      },
+      {
+        path: "/blogdetails",
+        element: <BlogDetails></BlogDetails>,
       },
     ],
   },

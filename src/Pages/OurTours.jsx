@@ -44,7 +44,7 @@ export const OurTours = () => {
             <div className="card-body bg-white">
               <h2 className="card-title font-bold">{d.name}</h2>
               <p>{d?.shortDescription}</p>
-              <Link to="">
+              <Link to="/blogdetails">
                 <button className="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md font-medium">
                   See Details
                 </button>

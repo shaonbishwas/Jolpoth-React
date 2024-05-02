@@ -23,7 +23,7 @@ export const Home = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 max-w-[1400px] mx-auto my-10 gap-5">
         {data?.map((d, idx) => (
-          <Link key={idx}>
+          <Link key={idx} to="/blogdetails">
             <div className="card card-compact w-96 bg-base-100 shadow mx-auto rounded-lg">
               <figure>
                 <img src={d.image} alt="Shoes" />

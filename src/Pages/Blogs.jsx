@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import banner from "../assets/blogBanner.jpg";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export const Blogs = () => {
     const { data } = useQuery({
@@ -57,11 +58,11 @@ export const Blogs = () => {
               <p>
                 {d.shortDescription}
               </p>
-              <a href="./blogs/floatingMarket.html">
+              <Link to="/blogdetails">
                 <button className="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md">
                   See More
                 </button>
-              </a>
+              </Link>
             </div>
           </div>)
         }

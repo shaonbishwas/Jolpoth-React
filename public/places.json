@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Sadarghat",
+    "location": "Dhaka, Bangladesh",
+    "image": "https://i.ibb.co/zG1JyZs/sadarghat-Card.jpg",
+    "shortDescription": "A lively area of narrow streets crammed with cycle rickshaws, Sadarghat is known for its bustling river port and boat trips along the Buriganga."
+  },
+  {
+    "name": "Floating Market",
+    "location": "Barishal, Bangladesh",
+    "image": "https://i.ibb.co/rpzMm5T/floating-Market-Card.jpg",
+    "shortDescription": "a vibrant and unique marketplace that epitomizes the essence of local culture and commerce. Situated amidst the intricate network of rivers and waterways that crisscross the region, this market stands as a testament to the ingenuity and adaptability of its inhabitants."
+  },
+  {
+    "name": "Kapti Lake",
+    "location": "Rangamati, Bangladesh",
+    "image": "https://i.ibb.co/3mpXPNp/kapti-Lake-Card.jpg",
+    "shortDescription": "nestled in the southeastern region of Bangladesh, is a mesmerizing reservoir that epitomizes tranquility and natural beauty. Created as a result of damming the Karnaphuli River, it sprawls across the rugged landscape of the Chittagong Hill Tracts, surrounded by lush green hills and dense forests."
+  },
+  {
+    "name": "Meghna River",
+    "location": "Chadpur, Bangladesh",
+    "image": "https://i.ibb.co/Kj7BPVT/meghna-Card.jpg",
+    "shortDescription": "The Meghna River in Bangladesh is a vital waterway supporting agriculture, fishing, and transportation. It serves as a cultural heritage site, shaping communities along its fertile banks, and is ecologically significant, home to diverse flora and fauna, including the iconic Sundarbans mangrove forest."
+  },
+  {
+    "name": "Brahmaputra River",
+    "location": "Kurigram, Bangladesh",
+    "image": "https://i.ibb.co/RQHYRLP/brahmaputra-River-Card.jpg",
+    "shortDescription": "The Brahmaputra River, coursing through Bangladesh, is a lifeline for millions, sustaining agriculture, trade, and transportation. It forms a vital part of the country's cultural and economic landscape, with its fertile banks supporting diverse communities and industries. "
+  },
+  {
+    "name": "Padma River",
+    "location": "Dhaka, Bangladesh",
+    "image": "https://i.ibb.co/H7xWL2m/padma-Card.jpg",
+    "shortDescription": "The Padma River, flowing through Bangladesh, is a vital artery supporting agriculture, transportation, and livelihoods for millions. Its fertile banks are home to vibrant communities and industries, shaping the cultural and economic landscape of the region."
+  }
+]

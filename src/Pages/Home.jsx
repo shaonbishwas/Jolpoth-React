@@ -2,6 +2,8 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import faqImg from "../assets/Frame.png"
+import Slider from "../Components/Slider";
+import Review from "../Components/Review1";
 export const Home = () => {
   const { data } = useQuery({
     queryKey: ["our tours"],
@@ -12,6 +14,7 @@ export const Home = () => {
   });
   return (
     <div>
+      <Slider />
       {/* <!-- ========================================================================popular places======================================================== --> */}
       <div className="text-center mt-20 space-y-4">
         <h1 className="text-4xl font-bold">Popular Places</h1>
@@ -24,7 +27,7 @@ export const Home = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 max-w-[1400px] mx-auto my-10 gap-5">
         {data?.map((d, idx) => (
           <Link key={idx} to="/blogdetails">
-            <div className="card card-compact w-96 bg-base-100 shadow mx-auto rounded-lg">
+            <div className="card card-compact lg:w-96 bg-base-100 shadow mx-auto rounded-lg">
               <figure>
                 <img src={d.image} alt="Shoes" />
               </figure>
@@ -92,6 +95,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <Review />
     </div>
   );
 };

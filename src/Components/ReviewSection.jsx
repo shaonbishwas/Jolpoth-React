@@ -5,6 +5,8 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import "swiper/css/scrollbar";
 import "swiper/css/pagination";
+import profile1 from "../assets/Ellipse 2.png";
+import profile2 from "../assets/Ellipse 3.png";
 import { FaQuoteLeft } from "react-icons/fa";
 
 const ReviewSection = () => {
@@ -56,7 +58,7 @@ const ReviewSection = () => {
             <div className=" py-8 px-12 lg:p-12 h-[350px] lg:h-[250px] space-y-3 border shadow rounded-2xl lg:mr-4">
               <div className="flex justify-between ">
                 <div className="flex items-center gap-4">
-                  <img src="/src/assets/Ellipse 2.png" alt="" />
+                  <img src={profile1} alt="" />
                   <div>
                     <h3 className="font-bold text-lg">611hildev</h3>
                     <h6>Oostrozebeke, Bélgica</h6>
@@ -76,7 +78,7 @@ const ReviewSection = () => {
             <div className="py-8 px-12 lg:p-12 h-[350px] lg:h-[250px]  space-y-3 border shadow rounded-2xl lg:mr-4">
               <div className="flex justify-between ">
                 <div className="flex items-center gap-4">
-                  <img src="/src/assets/Ellipse 3.png" alt="" />
+                  <img src={profile2} alt="" />
                   <div>
                     <h3 className="font-bold text-lg">Masseroliviero</h3>
                     <h6>Bergamo, Italia</h6>
@@ -98,7 +100,7 @@ const ReviewSection = () => {
             <div className="py-8 px-12 lg:p-12 h-[350px] lg:h-[250px]  space-y-3 border shadow rounded-2xl ">
               <div className="flex justify-between ">
                 <div className="flex items-center gap-4">
-                  <img src="/src/assets/Ellipse 3.png" alt="" />
+                  <img src={profile1} alt="" />
                   <div>
                     <h3 className="font-bold text-lg">Masseroliviero</h3>
                     <h6>Bergamo, Italia</h6>

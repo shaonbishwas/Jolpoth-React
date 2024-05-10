@@ -5,6 +5,10 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import "swiper/css/scrollbar";
 import "swiper/css/pagination";
+import banner1 from "../assets/homebanner1.jpg"
+import banner2 from "../assets/homebanner2.jpg"
+import banner3 from "../assets/homebanner3.jpg"
+import banner4 from "../assets/homebanner4.jpg"
 
 const Slider = () => {
   return (
@@ -28,7 +32,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="w-full relative">
               <img
-                src="/src/assets/homebanner1.jpg"
+                src={banner1}
                 className="slider-image  h-[320px] md:h-[400px] lg:h-[600px]"
                 alt=""
               />
@@ -50,7 +54,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="w-full h-full relative">
               <img
-                src="/src/assets/homebanner2.jpg"
+                src={banner2}
                 className="slider-image  h-[320px] md:h-[400px] lg:h-[600px]"
                 alt=""
               />
@@ -70,7 +74,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="w-full h-full relative">
               <img
-                src="/src/assets/homebanner3.jpg"
+                src={banner3}
                 className="slider-image  h-[320px] md:h-[400px] lg:h-[600px]"
                 alt=""
               />
@@ -90,7 +94,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="w-full h-full relative">
               <img
-                src="/src/assets/homebanner4.jpg"
+                src={banner4}
                 className="slider-image  h-[320px] md:h-[400px] lg:h-[600px]"
                 alt=""
               />

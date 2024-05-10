@@ -11,7 +11,7 @@ export const TravelStory = () => {
         <img
           src={img}
           alt=""
-          className="w-full max-h-[450px]"
+          className="w-full "
         />
       </div>
       <div className="storyDiv">

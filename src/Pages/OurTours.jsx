@@ -15,14 +15,14 @@ export const OurTours = () => {
   return (
     <div>
         <div className="item relative max-w-[1400px] mx-auto">
-          <img className="lg:h-[600px] " src={banner} alt="" />
+          <img className="" src={banner} alt="" />
           <div
-            className="absolute text-center w-full px-5 top-[20%] md:top-[30%] lg:px-44 text-white text-[25px] font-semibold hidden md:block"
+            className="absolute text-center w-full px-5 top-[20%] md:top-[30%] lg:px-44 text-white text-[25px] font-semibold hidden md:block font-sans"
           >Bangladesh, known as a riverine country, is crisscrossed by an extensive network of rivers. These rivers play a crucial role in shaping the geography, culture, and livelihoods of the nation.</div>
         </div>
       <div className="text-center mt-10 lg:mt-20 space-y-4 px-5">
         <h1 className="text-2xl lg:text-4xl font-bold">Our Tours</h1>
-        <p className="text-[12px] lg:text-base ">
+        <p className="text-[12px] lg:text-base font-mono">
           Exploring the Enchanting Charms of Santorini: A Journey into the Heart
           of bangladesh's Captivating river Paradise <br />
           Draws Travelers from Across the Globe.
@@ -32,7 +32,7 @@ export const OurTours = () => {
         {data?.map((d, idx) => (
           <div
             key={idx}
-            className="card card-compact bg-base-100 shadow mx-auto rounded-md"
+            className="font-sans card card-compact bg-base-100 shadow mx-auto rounded-md"
           >
             <figure>
               <img
@@ -44,7 +44,7 @@ export const OurTours = () => {
             <div className="card-body bg-white">
               <h2 className="card-title font-bold">{d.name}</h2>
               <p>{d?.shortDescription}</p>
-              <Link to="/blogdetails">
+              <Link to={`/tourdetails/${d.id}`}>
                 <button className="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md font-medium">
                   See Details
                 </button>

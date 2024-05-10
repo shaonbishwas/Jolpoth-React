@@ -18,7 +18,7 @@ export const Home = () => {
       {/* <!-- ========================================================================popular places======================================================== --> */}
       <div className="text-center mt-20 space-y-4">
         <h1 className="text-4xl font-bold">Popular Places</h1>
-        <p>
+        <p className="font-mono">
           Exploring the Enchanting Charms of Santorini: A Journey into the Heart
           of bangladesh's Captivating river Paradise <br />
           Draws Travelers from Across the Globe.
@@ -26,8 +26,8 @@ export const Home = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 max-w-[1400px] lg:mx-auto mx-10 my-10 gap-5">
         {data?.map((d, idx) => (
-          <Link key={idx} to="/blogdetails">
-            <div className="card card-compact lg:w-96 bg-base-100 shadow mx-auto rounded-lg">
+          <Link key={idx} to={`/blogdetails/${d.id}`}>
+            <div className="font-sans card card-compact lg:w-96 bg-base-100 shadow mx-auto rounded-lg">
               <figure>
                 <img src={d.image} alt="Shoes" />
               </figure>
@@ -45,7 +45,7 @@ export const Home = () => {
         </Link>
       </div>
       {/* <!-- ===================================================================================faq===================================================================== --> */}
-      <div className="">
+      <div className="font-sans">
         <div className="mt-28 mb-10">
           <h1 className="text-center text-4xl font-bold">
             Frequently Asked Any Questions

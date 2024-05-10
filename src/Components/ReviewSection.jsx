@@ -9,7 +9,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const ReviewSection = () => {
   return (
-    <div className="mt-24 mb-20 max-w-[1440px] mx-auto px-3 lg:px-20">
+    <div className="mt-24 mb-20 max-w-[1440px] mx-auto px-3 lg:px-20 font-sans">
       <div className="text-center space-y-3 mb-10">
         <h1 className="text-4xl font-bold">What Our Client Says</h1>
         <p className="font-mono">

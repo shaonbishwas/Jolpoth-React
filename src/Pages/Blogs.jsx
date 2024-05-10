@@ -17,7 +17,7 @@ export const Blogs = () => {
         <div className="item relative max-w-[1400px] mx-auto">
           <img src={banner} alt=""  />
           <div className="absolute text-center w-full px-5 top-[20%] md:top-[30%] lg:px-44 text-white">
-            <p className="hidden lg:block lg:text-[25px]">
+            <p className="hidden lg:block lg:text-[25px] font-sans">
               Embark on unforgettable journeys with Sail Away Adventures! Our
               boat travel agency specializes in curated cruises, island hopping,
               and coastal escapades. Whether you’re seeking serene sunsets,
@@ -31,7 +31,7 @@ export const Blogs = () => {
 
       <div className="text-center mt-10 lg:mt-20 space-y-4 px-5">
         <h1 className="text-2xl lg:text-4xl font-bold">Blogs</h1>
-        <p className="text-[12px] lg:text-base">
+        <p className="text-[12px] lg:text-base font-mono">
           Exploring the Enchanting Charms of Santorini: A Journey into the Heart
           of bangladesh's Captivating river Paradise <br />
           Draws Travelers from Across the Globe.
@@ -53,12 +53,12 @@ export const Blogs = () => {
                 alt="Shoes"
               />
             </figure>
-            <div className="card-body bg-white">
+            <div className="card-body bg-white font-sans">
               <h2 className="card-title font-bold">{d.name}</h2>
               <p>
                 {d.shortDescription}
               </p>
-              <Link to="/blogdetails">
+              <Link to={`/blogdetails/${d.id}`}>
                 <button className="text-white mt-[6px] bg-[#449586] py-3 px-5 rounded-md">
                   See More
                 </button>

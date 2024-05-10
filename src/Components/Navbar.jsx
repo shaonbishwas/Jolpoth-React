@@ -87,14 +87,14 @@ export const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl font-extrabold font-sans">
+          <a className="btn btn-ghost text-3xl font-extrabold font-sans">
             Jolpoth
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 flex gap-16">{links}</ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end hidden">
           <Link
             className="btn bg-transparent text-white"
            to="register"

@@ -2,9 +2,9 @@ import banner from "../assets/aboutus.jpg";
 
 export const About = () => {
   return (
-    <div className="max-w-[1400px] mx-auto text-center">
+    <div className="max-w-[1400px] mx-auto text-center font-sans">
       <div className="">
-        <img src={banner} alt="" className="w-full max-h-[450px]" />
+        <img src={banner} alt="" className="w-full " />
       </div>
       {/* <!-- About the area --> */}
       <div className="my-12">

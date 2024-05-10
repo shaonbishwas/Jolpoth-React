@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import faqImg from "../assets/Frame.png"
 import Slider from "../Components/Slider";
-import Review from "../Components/Review1";
+import ReviewSection from "../Components/ReviewSection";
 export const Home = () => {
   const { data } = useQuery({
     queryKey: ["our tours"],
@@ -24,7 +24,7 @@ export const Home = () => {
           Draws Travelers from Across the Globe.
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 max-w-[1400px] mx-auto my-10 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-3 max-w-[1400px] lg:mx-auto mx-10 my-10 gap-5">
         {data?.map((d, idx) => (
           <Link key={idx} to="/blogdetails">
             <div className="card card-compact lg:w-96 bg-base-100 shadow mx-auto rounded-lg">
@@ -51,7 +51,7 @@ export const Home = () => {
             Frequently Asked Any Questions
           </h1>
         </div>
-        <div className="max-w-[1400px] mx-auto flex lg:flex-row flex-col gap-5 items-center">
+        <div className="max-w-[1400px] mx-5 lg:mx-auto flex lg:flex-row flex-col gap-5 lg:items-center">
           <div className="flex-1 space-y-2">
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="my-accordion-3" checked="checked" />
@@ -95,7 +95,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <Review />
+      <ReviewSection></ReviewSection>
     </div>
   );
 };

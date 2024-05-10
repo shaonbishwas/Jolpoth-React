@@ -97,7 +97,7 @@ export const Review = () => {
   wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
   wrapper.addEventListener("mouseleave", autoPlay);
   return (
-    <div>
+    <div className="mx-auto">
       <div className="text-center mt-20 space-y-3">
         <h1 className="text-4xl font-bold">What Our Client Says</h1>
         <p className="font-mono">

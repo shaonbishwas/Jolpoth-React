@@ -14,15 +14,15 @@ export const OurTours = () => {
   });
   return (
     <div>
-        <div className="item relative border">
-          <img className="h-[600px] w-full" src={banner} alt="" />
+        <div className="item relative max-w-[1400px] mx-auto">
+          <img className="lg:h-[600px] " src={banner} alt="" />
           <div
-            className="absolute text-center w-full px-5 top-[20%] md:top-[30%] lg:px-44 text-white"
-          ></div>
+            className="absolute text-center w-full px-5 top-[20%] md:top-[30%] lg:px-44 text-white text-[25px] font-semibold hidden md:block"
+          >Bangladesh, known as a riverine country, is crisscrossed by an extensive network of rivers. These rivers play a crucial role in shaping the geography, culture, and livelihoods of the nation.</div>
         </div>
       <div className="text-center mt-10 lg:mt-20 space-y-4 px-5">
         <h1 className="text-2xl lg:text-4xl font-bold">Our Tours</h1>
-        <p className="text-[12px] lg:text-base">
+        <p className="text-[12px] lg:text-base ">
           Exploring the Enchanting Charms of Santorini: A Journey into the Heart
           of bangladesh's Captivating river Paradise <br />
           Draws Travelers from Across the Globe.

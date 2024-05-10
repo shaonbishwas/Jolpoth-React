@@ -14,10 +14,10 @@ export const Blogs = () => {
   return (
     <div>
       <div className="">
-        <div className="item relative border">
-          <img src={banner} alt="" />
+        <div className="item relative max-w-[1400px] mx-auto">
+          <img src={banner} alt=""  />
           <div className="absolute text-center w-full px-5 top-[20%] md:top-[30%] lg:px-44 text-white">
-            <p className="hidden lg:block lg:text-[30px]">
+            <p className="hidden lg:block lg:text-[25px]">
               Embark on unforgettable journeys with Sail Away Adventures! Our
               boat travel agency specializes in curated cruises, island hopping,
               and coastal escapades. Whether you’re seeking serene sunsets,
@@ -36,11 +36,11 @@ export const Blogs = () => {
           of bangladesh's Captivating river Paradise <br />
           Draws Travelers from Across the Globe.
         </p>
-        <ul className="flex gap-4 justify-center items-center">
+        {/* <ul className="flex gap-4 justify-center items-center">
           <li className="text-[#449586] font-bold cursor-pointer">New</li>
           <li className="font-medium cursor-pointer">Favorite</li>
           <li className="font-medium cursor-pointer">Trending</li>
-        </ul>
+        </ul> */}
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 max-w-[1400px] mx-auto my-10 gap-7 px-5">
        
